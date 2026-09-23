@@ -227,7 +227,7 @@ projects = [
     (
         "02 / Masters Capstone Project",
         "Emerging Fraud Trends Dashboard",
-        "Developed an automated pipeline to ingest news articles and other relevant text data daily and analyze fraud trends using clustering and text embeddings and creating fraud risk scores.",
+        "Developed an automated pipeline to ingest news articles and other relevant text data daily and analyze fraud trends using clustering, text embeddings, and fraud risk scores.",
         "Python · Topic modeling · RAG (Retrieval-Augmented Generation) · Fraud analysis",
         "https://github.com/owilli38/DSBA6390-Fraud-Detection-Emerging-Fraud-Signals-Dashbaord-",
         None,
