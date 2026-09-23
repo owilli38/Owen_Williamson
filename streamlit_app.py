@@ -225,10 +225,10 @@ projects = [
         None,
     ),
     (
-        "02 / State of Fraud Dashboard",
+        "02 / Masters Capstone Project",
         "Emerging Fraud Trends Dashboard",
-        "Developed an interactive dashboard to visualize and analyze fraud trends across different sectors, enabling data-driven decision-making.",
-        "Python · Topic modeling · Data visualization · Fraud analysis",
+        "Developed an automated pipeline to ingest news articles and other relevant text data daily and analyze fraud trends using clustering and text embeddings and creating fraud risk scores.",
+        "Python · Topic modeling · RAG (Retrieval-Augmented Generation) · Fraud analysis",
         "https://github.com/owilli38/DSBA6390-Fraud-Detection-Emerging-Fraud-Signals-Dashbaord-",
         None,
         None,
