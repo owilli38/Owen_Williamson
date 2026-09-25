@@ -101,7 +101,7 @@ with st.sidebar:
     st.markdown("---")
     st.markdown("**Let's connect**")
     st.markdown("owenwilliamson997@gmail.com  \n[LinkedIn](https://www.linkedin.com/in/owen-k-williamson)  \n[GitHub](https://github.com/owilli38)", unsafe_allow_html=True)
-    resume_path = Path(__file__).parent / "Resume for Owen Williamson.pdf"
+    resume_path = Path(__file__).parent / "Williamson, Owen Resume.pdf"
     if resume_path.exists():
         st.download_button(
             "Download resume",
