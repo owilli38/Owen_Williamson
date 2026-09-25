@@ -15,13 +15,13 @@ st.markdown(
     @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
 
     :root {
-        --ink: #17212b;
-        --muted: #66727d;
+        --ink: #19352a;
+        --muted: #5a7164;
         --paper: #f7f5f0;
-        --line: #ddd9d0;
-        --accent: #c85c38;
-        --accent-soft: #f3dfd4;
-        --navy: #233746;
+        --line: #d7ddd5;
+        --accent: #1f5a43;
+        --accent-soft: #e1ece5;
+        --navy: #163d2e;
     }
 
     .stApp {
@@ -70,8 +70,8 @@ st.markdown(
     .date { color: var(--accent); font-size: .8rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
     .resume-item { border-top: 1px solid var(--line); padding: 1.25rem 0 1.5rem; }
     .resume-item:first-child { margin-top: .75rem; }
-    .skill { background: white; border: 1px solid var(--line); display: inline-block; font-size: .85rem; margin: .25rem .35rem .25rem 0; padding: .5rem .7rem; }
-    .project-card { background: white; border-top: 3px solid var(--accent); min-height: 250px; padding: 1.25rem 1.2rem 1.4rem; }
+    .skill { background: #fffdf8; border: 1px solid var(--line); display: inline-block; font-size: .85rem; margin: .25rem .35rem .25rem 0; padding: .5rem .7rem; }
+    .project-card { background: #fffdf8; border-top: 3px solid var(--accent); min-height: 250px; padding: 1.25rem 1.2rem 1.4rem; }
     .project-card h3 { margin-top: .65rem !important; }
     .project-label, .project-tools { color: var(--accent); font-size: .72rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
     .project-tools { border-top: 1px solid var(--line); color: var(--muted); line-height: 1.5; margin-top: 1.2rem; padding-top: .85rem; }
