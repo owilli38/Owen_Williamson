@@ -4,8 +4,7 @@ import streamlit as st
 
 
 st.set_page_config(
-    page_title="Owen Williamson | Resume",
-    page_icon="OW",
+    page_title="Owen Williamson",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -172,9 +171,9 @@ st.markdown(
             <p class="role">Winston-Salem, NC · June 2026 - Present</p>
             <p class="description">Automated matching pipeline in R using the rentrez package to programmatically query PubMed for downstream publications 
 for 1,650 institutional service forms.</p>
-            <p class="description">Extracted high-value keywords from unstructured text fields using TF-IDF text mining to identify related publications.</p>
-            <p class="description">Enhanced predictions of publication status using logistic regression with cross-validation to optimize tuning parameters.</p>
-            <p class="description">Analyzed the causal effect of institutional support on bibliometric measures using mixed-effect and zero-inflated linear models 
+            <p class="description">Applied text analysis and natural language processing techniques to extract insights from unstructured data.</p>
+            <p class="description">Predicted publication success using a penalized logistic regression model with cross-validation.</p>
+            <p class="description">Analyzed the causal effect of institutional support on bibliometric measures using mixed-effect and general linear mixed models 
 with fixed and random effect variables.</p>
             <p class="description">Conducted systematic clinical chart reviews of Electronic Health Record (EHR) data to obtain high-fidelity ground truth variables 
 and identify data quality gaps within structured clinical fields</p>
@@ -258,7 +257,7 @@ projects = [
         "Python · Data visualization · Analysis",
         "https://github.com/owilli38/DSBA-6211/blob/main/FinalProject6211_for_EDA_Maps_Price.ipynb",
         None,
-        "https://www.linkedin.com/in/owen-k-williamson/overlay/Project/1751104033/treasury/?profileId=ACoAADGPzXkB-73uOBi8Zlpm_E0kns075YmxR1A",
+        None
     ),
     (
         "06 / Undergrad Capstone",
@@ -267,7 +266,7 @@ projects = [
         "Qualitative & Quantitative analysis · Comparative politics",
         None,
         None,
-        "https://www.linkedin.com/in/owen-k-williamson/overlay/Project/383043002/treasury/?profileId=ACoAADGPzXkB-73uOBi8Zlpm_E0kns075YmxR1A&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_projects_details%3BMHPGQRHJTvOfIVJ8j%2FheQw%3D%3D",
+        "https://www.linkedin.com/in/owen-k-williamson/details/projects/",
     ),
 ]
 for row_start in range(0, len(projects), 3):
