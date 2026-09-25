@@ -97,7 +97,7 @@ with st.sidebar:
     st.caption("Resume")
     st.markdown("---")
     st.markdown("**Navigate**")
-    st.markdown("[About](#about)  \n[Skills](#skills)  \n[Education](#education)  \n[Experience](#experience)  \n[Projects](#projects)  \n[Publications](#publications)")
+    st.markdown("[About](#about)  \n[Skills](#skills)  \n[Projects](#projects)  \n[Publications](#publications)  \n[Education](#education)  \n[Experience](#experience)")
     st.markdown("---")
     st.markdown("**Let's connect**")
     st.markdown("owenwilliamson997@gmail.com  \n[LinkedIn](https://www.linkedin.com/in/owen-k-williamson)  \n[GitHub](https://github.com/owilli38)", unsafe_allow_html=True)
@@ -141,76 +141,6 @@ st.markdown('<div id="skills"></div>', unsafe_allow_html=True)
 st.markdown("## Skills & interests")
 skills = ["R", "Python", "SQL", "Power BI", "Excel", "Github", "Regression", "Classification Models", "XGBoost/Random Forest/Logistic Regression", "RAG", "AI Prompt Engineering", "Data storytelling", "Data analysis", "Research", "Machine Learning", "Text Analysis/NLP", "Communication","Statistics"]
 st.markdown("".join(f'<span class="skill">{skill}</span>' for skill in skills), unsafe_allow_html=True)
-
-
-st.markdown('<div id="education"></div>', unsafe_allow_html=True)
-st.markdown("## Education")
-st.markdown(
-    """
-    <div class="resume-item">
-        <div class="date">Graduate study</div>
-        <h3>Master of Science in Data Science & Business Analytics</h3>
-        <p class="role">GPA: 3.90 · University of North Carolina at Charlotte, May 2026</p>
-        <p class="coursework">Coursework: Statistical Learning with Big Data, Graduate Econometrics, Applied Machine Learning, Database Systems</p>
-    </div>
-    <div class="resume-item">
-        <div class="date">Undergraduate study</div>
-        <h3>Bachelor of Arts in Political Science</h3>
-        <p class="role">GPA: 3.84, Magna Cum Laude · Davidson College, January 2024</p>
-        <p class="coursework">Coursework: Multivariable Calculus, Intro to Public Health, Intro to Research Methods, Comparative Politics, International Relations</p>
-    </div>
-    """,
-    unsafe_allow_html=True,
-)
-
-st.markdown('<div id="experience"></div>', unsafe_allow_html=True)
-st.markdown("## Experience")
-st.markdown(
-    """
-        <div class="resume-item">
-            <div class="date">Wake Forest University School of Medicine</div>
-            <h3>Biostatistics Intern</h3>
-            <p class="role">Winston-Salem, NC · June 2026 - Present</p>
-            <p class="description">Automated matching pipeline in R using the rentrez package to programmatically query PubMed for downstream publications 
-for 1,650 institutional service forms.</p>
-            <p class="description">Applied text analysis and natural language processing techniques to extract insights from unstructured data.</p>
-            <p class="description">Predicted publication success using a penalized logistic regression model with cross-validation.</p>
-            <p class="description">Analyzed the causal effect of institutional support on bibliometric measures using mixed-effect and general linear mixed models 
-with fixed and random effect variables.</p>
-            <p class="description">Conducted systematic clinical chart reviews of Electronic Health Record (EHR) data to obtain high-fidelity ground truth variables 
-and identify data quality gaps within structured clinical fields</p>
-        </div>
-        <div class="resume-item">
-            <div class="date">Fleet Feet</div>
-            <h3>Marketing Coordinator</h3>
-            <p class="role">Huntersville, NC · March 2024 - May 2026</p>
-            <p class="description">Coordinated marketing campaigns and events to drive brand awareness and customer engagement.</p>
-            <p class="description">Segmented a CRM database of 30,000+ contacts for targeted campaigns, increasing participation by 50%+.</p>  
-            <p class="description">Streamlined operations by building an automated Excel KPI dashboard, reducing manual reporting constraints by 2 hours/week.</p>
-            <p class="description">Conducted SEO analysis to optimize web presence, successfully driving measurable increases in digital and foot traffic.</p>
-            <p class="description">Monitored social media engagement metrics through iterative testing, refining content strategy to boost engagement by 75%</p>
-            <h3>Outfitter</h3>
-            <p class="role">Huntersville, NC · August 2023 - May 2026</p>
-            <p class="description">Provided excellent customer service by actively educating customers about specialized products in a one-on-one fitting experience.</p>
-            <p class="description">Served as team lead, managing a team of outfitters, greeting customers, and fulfilling leadership roles in fast-paced store environments.</p>
-        <div class="resume-item">
-            <div class="date">Center for Civic Engagement</div>
-            <h3>Community Research Fellow</h3>
-            <p class="role">Davidson, NC · March 2024 - May 2026</p>
-            <p class="description">Created a dashboard using RShiny for partner organization, CREED, displaying representation for students of color compared to school board members across North Carolina’s 115 school districts and designed case studies to highlight exemplary stories</p>
-            <p class="description">Compiled and cleaned data using R and wrote code to automate the matching process for school board members to their voter registration from the state-wide file, successfully matching 90% of school board members.</p>
-            <p class="description">Utilized an API to streamline data collection and publicly available data on district- and school-level achievement.</p>
-            <p class="description">Collaborated with CREED and stakeholders, presenting weekly updates and effectively communicated to meet deliverables.</p>
-        </div>
-        <div class="resume-item">
-             <div class="date">Ron Osborne for NC House</div>
-            <h3>Assistant Treasurer</h3>
-            <p class="role">Graham, NC · March 2022 - July 2023</p>
-           <p class="description">Maintained detailed spreadsheets, confirming balance to bank statements to ensure accuracy and communicating effectively with others to capture financial data.</p>
-           <p class="description">Managed and accounted over $35,000 in both contributions and expenditures.</p>
-        """,
-        unsafe_allow_html=True,
-    )
 
 
 st.markdown('<div id="projects"></div>', unsafe_allow_html=True)
@@ -327,6 +257,76 @@ st.markdown(
                     <p class="description">Written by Owen Williamson, Edited by Mary Herdelin</p>
                     {f'<p class="project-links"><a href="{publication_url}" target="_blank">View publication ↗</a></p>' if publication_url else ''}
                 </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
+st.markdown('<div id="education"></div>', unsafe_allow_html=True)
+st.markdown("## Education")
+st.markdown(
+    """
+    <div class="resume-item">
+        <div class="date">Graduate study</div>
+        <h3>Master of Science in Data Science & Business Analytics</h3>
+        <p class="role">GPA: 3.90 · University of North Carolina at Charlotte, May 2026</p>
+        <p class="coursework">Coursework: Statistical Learning with Big Data, Graduate Econometrics, Applied Machine Learning, Database Systems</p>
+    </div>
+    <div class="resume-item">
+        <div class="date">Undergraduate study</div>
+        <h3>Bachelor of Arts in Political Science</h3>
+        <p class="role">GPA: 3.84, Magna Cum Laude · Davidson College, January 2024</p>
+        <p class="coursework">Coursework: Multivariable Calculus, Intro to Public Health, Intro to Research Methods, Comparative Politics, International Relations</p>
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
+
+st.markdown('<div id="experience"></div>', unsafe_allow_html=True)
+st.markdown("## Experience")
+st.markdown(
+    """
+        <div class="resume-item">
+            <div class="date">Wake Forest University School of Medicine</div>
+            <h3>Biostatistics Intern</h3>
+            <p class="role">Winston-Salem, NC · June 2026 - Present</p>
+            <p class="description">Automated matching pipeline in R using the rentrez package to programmatically query PubMed for downstream publications
+for 1,650 institutional service forms.</p>
+            <p class="description">Applied text analysis and natural language processing techniques to extract insights from unstructured data.</p>
+            <p class="description">Predicted publication success using a penalized logistic regression model with cross-validation.</p>
+            <p class="description">Analyzed the causal effect of institutional support on bibliometric measures using mixed-effect and general linear mixed models
+with fixed and random effect variables.</p>
+            <p class="description">Conducted systematic clinical chart reviews of Electronic Health Record (EHR) data to obtain high-fidelity ground truth variables
+and identify data quality gaps within structured clinical fields</p>
+        </div>
+        <div class="resume-item">
+            <div class="date">Fleet Feet</div>
+            <h3>Marketing Coordinator</h3>
+            <p class="role">Huntersville, NC · March 2024 - May 2026</p>
+            <p class="description">Coordinated marketing campaigns and events to drive brand awareness and customer engagement.</p>
+            <p class="description">Segmented a CRM database of 30,000+ contacts for targeted campaigns, increasing participation by 50%+.</p>
+            <p class="description">Streamlined operations by building an automated Excel KPI dashboard, reducing manual reporting constraints by 2 hours/week.</p>
+            <p class="description">Conducted SEO analysis to optimize web presence, successfully driving measurable increases in digital and foot traffic.</p>
+            <p class="description">Monitored social media engagement metrics through iterative testing, refining content strategy to boost engagement by 75%</p>
+            <h3>Outfitter</h3>
+            <p class="role">Huntersville, NC · August 2023 - May 2026</p>
+            <p class="description">Provided excellent customer service by actively educating customers about specialized products in a one-on-one fitting experience.</p>
+            <p class="description">Served as team lead, managing a team of outfitters, greeting customers, and fulfilling leadership roles in fast-paced store environments.</p>
+        <div class="resume-item">
+            <div class="date">Center for Civic Engagement</div>
+            <h3>Community Research Fellow</h3>
+            <p class="role">Davidson, NC · March 2024 - May 2026</p>
+            <p class="description">Created a dashboard using RShiny for partner organization, CREED, displaying representation for students of color compared to school board members across North Carolina’s 115 school districts and designed case studies to highlight exemplary stories</p>
+            <p class="description">Compiled and cleaned data using R and wrote code to automate the matching process for school board members to their voter registration from the state-wide file, successfully matching 90% of school board members.</p>
+            <p class="description">Utilized an API to streamline data collection and publicly available data on district- and school-level achievement.</p>
+            <p class="description">Collaborated with CREED and stakeholders, presenting weekly updates and effectively communicated to meet deliverables.</p>
+        </div>
+        <div class="resume-item">
+             <div class="date">Ron Osborne for NC House</div>
+            <h3>Assistant Treasurer</h3>
+            <p class="role">Graham, NC · March 2022 - July 2023</p>
+           <p class="description">Maintained detailed spreadsheets, confirming balance to bank statements to ensure accuracy and communicating effectively with others to capture financial data.</p>
+           <p class="description">Managed and accounted over $35,000 in both contributions and expenditures.</p>
         """,
         unsafe_allow_html=True,
     )
