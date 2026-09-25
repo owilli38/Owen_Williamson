@@ -191,7 +191,7 @@ projects = [
         "Sicily Investment Strategy",
         "Used linear regression, text mining (sentiment analysis), support vector machines (SVM), heat maps, and time series analysis to make recommendations and strategies.",
         "Python · Data visualization · Analysis",
-        "https://github.com/owilli38/DSBA-6211/blob/main/FinalProject6211_for_EDA_Maps_Price.ipynb",
+        "https://github.com/owilli38/Sicily-AirBNB-Project",
         None,
         None,
         None,
