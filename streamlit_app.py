@@ -151,11 +151,13 @@ st.markdown(
         <div class="date">Graduate study</div>
         <h3>Master of Science in Data Science & Business Analytics</h3>
         <p class="role">GPA: 3.90 · University of North Carolina at Charlotte, May 2026</p>
+        <p class="coursework">Coursework: Statistical Learning with Big Data, Graduate Econometrics, Applied Machine Learning, Database Systems</p>
     </div>
     <div class="resume-item">
         <div class="date">Undergraduate study</div>
         <h3>Bachelor of Arts in Political Science</h3>
         <p class="role">GPA: 3.84, Magna Cum Laude · Davidson College, January 2024</p>
+        <p class="coursework">Coursework: Multivariable Calculus, Intro to Public Health, Intro to Research Methods, Comparative Politics, International Relations</p>
     </div>
     """,
     unsafe_allow_html=True,
