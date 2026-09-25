@@ -15,7 +15,7 @@ st.markdown(
     @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
 
     :root {
-        --ink: #19352a;
+        --ink: #111111;
         --muted: #5a7164;
         --paper: #f7f5f0;
         --line: #d7ddd5;
