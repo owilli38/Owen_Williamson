@@ -224,6 +224,7 @@ projects = [
         None,
         None,
         None,
+        None,
     ),
     (
         "02 / Masters Capstone Project",
@@ -231,6 +232,7 @@ projects = [
         "Developed an automated pipeline to ingest news articles and other relevant text data daily and analyze fraud trends using clustering, text embeddings, and fraud risk scores.",
         "Python · Topic modeling · RAG (Retrieval-Augmented Generation) · Fraud analysis",
         "https://github.com/owilli38/DSBA6390-Fraud-Detection-Emerging-Fraud-Signals-Dashbaord-",
+        None,
         None,
         None,
     ),
@@ -242,6 +244,7 @@ projects = [
         "https://github.com/owilli38/6156-Final-Project-Measles-Detection-Model",
         None,
         None,
+        None,
     ),
     (
         "04 / Public data",
@@ -251,6 +254,7 @@ projects = [
         None,
         "https://ncpublicschoolrepresentation.shinyapps.io/NC-Public-School-Representation/",
         None,
+        None,
     ),
     (
         "05 / AirBNB Analysis",
@@ -259,7 +263,8 @@ projects = [
         "Python · Data visualization · Analysis",
         "https://github.com/owilli38/DSBA-6211/blob/main/FinalProject6211_for_EDA_Maps_Price.ipynb",
         None,
-        None
+        None,
+        None,
     ),
     (
         "06 / Undergrad Capstone",
@@ -268,12 +273,13 @@ projects = [
         "Qualitative & Quantitative analysis · Comparative politics",
         None,
         None,
+        None,
         "https://www.linkedin.com/in/owen-k-williamson/details/projects/",
     ),
 ]
 for row_start in range(0, len(projects), 3):
     project_columns = st.columns(3, gap="medium")
-    for column, (label, title, description, tools, github_url, shiny_url, pdf_url) in zip(project_columns, projects[row_start:row_start + 3]):
+    for column, (label, title, description, tools, github_url, shiny_url, pdf_url, linkedin_url) in zip(project_columns, projects[row_start:row_start + 3]):
         with column:
             project_links = []
             if github_url:
@@ -282,6 +288,8 @@ for row_start in range(0, len(projects), 3):
                 project_links.append(f'<a href="{shiny_url}" target="_blank">RShiny App ↗</a>')
             if pdf_url:
                 project_links.append(f'<a href="{pdf_url}" target="_blank">Open PDF ↗</a>')
+            if linkedin_url:
+                project_links.append(f'<a href="{linkedin_url}" target="_blank">View on my LinkedIn Projects ↗</a>')
             links_markup = f'<div class="project-links">{"".join(project_links)}</div>' if project_links else ""
             st.markdown(
                 f"""
